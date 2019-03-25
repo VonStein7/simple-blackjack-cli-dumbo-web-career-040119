@@ -39,6 +39,7 @@ end
 def hit?(current_card_total)
   # code hit? here
   #hit or stay
+  choice = ''
   
   prompt_user
   
