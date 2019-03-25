@@ -42,18 +42,7 @@ def hit?(current_card_total)
   choice = ''
   
   prompt_user
-  #puts choice
-  
-  if get_user_input == 's'
-    return display_card_total(current_card_total)
-  end
-  
-  if choice == 'h'
-    new_total = current_card_total + deal_card()
-    #hit?(new_total)
-  end
-  
-  return false
+
 end
 
 def invalid_command
