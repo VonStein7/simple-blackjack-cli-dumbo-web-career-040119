@@ -42,7 +42,7 @@ def hit?(current_card_total)
   choice = ''
   
   prompt_user
-
+  get_user_input
 end
 
 def invalid_command
