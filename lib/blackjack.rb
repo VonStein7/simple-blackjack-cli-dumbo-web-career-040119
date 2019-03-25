@@ -50,7 +50,7 @@ def hit?(current_card_total)
   
   if choice == 'h'
     new_total = current_card_total + deal_card()
-    hit?(new_total)
+    #hit?(new_total)
   end
   
   return false
