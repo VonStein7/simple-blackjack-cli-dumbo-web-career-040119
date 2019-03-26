@@ -80,6 +80,7 @@ def runner
   
   #start game 
   hit?(current_total)
+  display_card_total(current_total)
   
   end_game(current_total)
 end
