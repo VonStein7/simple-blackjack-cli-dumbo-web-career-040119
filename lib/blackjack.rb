@@ -54,7 +54,10 @@ def hit?(current_card_total)
   
   if choice != 'h' || choice != 's'
     invalid_command
+    prompt_user
   end
+  
+  current_card_total
 end
 
 def invalid_command
