@@ -47,6 +47,12 @@ def hit?(current_card_total)
   if choice == 's'
     return current_card_total
   end
+  
+  if choice == 'h'
+    new_total = deal_card + current_card_total
+  end 
+  
+  
 end
 
 def invalid_command
