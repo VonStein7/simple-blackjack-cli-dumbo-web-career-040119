@@ -50,7 +50,7 @@ def hit?(current_card_total)
   
   if choice == 'h'
     new_total = deal_card + current_card_total
-    puts new_total
+    return new_total
   end 
   
   
