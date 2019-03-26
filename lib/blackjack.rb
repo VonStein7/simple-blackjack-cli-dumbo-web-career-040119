@@ -79,9 +79,7 @@ def runner
   current_total = initial_round() 
   
   #start game 
-  while current_total <= 21
-    hit?(current_total)
-  end
+  hit?(current_total)
   
   end_game(current_total)
 end
