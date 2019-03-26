@@ -81,7 +81,7 @@ def runner
   
   #start game 
   while current_total <= 21
-    hit?(current_total)
+    current_total = hit?(current_total)
     display_card_total(current_total)
   end
   
