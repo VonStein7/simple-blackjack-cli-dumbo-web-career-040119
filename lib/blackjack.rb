@@ -71,5 +71,18 @@ end
 
 def runner
   # code runner here
+  #greet user 
+  welcome()
+  
+  #start game 
+  current_total = 0 
+  current_total = initial_round() 
+  
+  #start game 
+  while current_total <= 21
+    hit?(current_total)
+  end
+  
+  end_game(current_total)
 end
     
