@@ -78,6 +78,8 @@ def runner
   current_total = 0 
   current_total = initial_round() 
   
+  puts current_total
+  
   #start game 
   hit?(current_total)
   display_card_total(current_total)
