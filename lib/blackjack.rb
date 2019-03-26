@@ -42,9 +42,9 @@ def hit?(current_card_total)
   choice = ''
   
   prompt_user
-  get_user_input
+  choice = get_user_input
   
-  if get_user_input == 's'
+  if choice == 's'
     return current_card_total
   end
 end
