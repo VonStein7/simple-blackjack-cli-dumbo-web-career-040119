@@ -37,8 +37,7 @@ def initial_round
 end
 
 def hit?(current_card_total)
-  # code hit? here
-  #hit or stay
+  # code hit? here 
   choice = ''
   
   prompt_user
@@ -53,11 +52,14 @@ def hit?(current_card_total)
     return new_total
   end 
   
-  
+  if choice != 'h' || choice != 's'
+    invalid_command
+  end
 end
 
 def invalid_command
   # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
